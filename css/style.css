@@ -123,6 +123,7 @@ li {
 	height: 90vh;
 	background: #fff url(../images/Cherryblossoms2.jpg) center no-repeat;
 	background-size: cover;
+	opacity: 0.9;
 }
 
 /* Content Style */
