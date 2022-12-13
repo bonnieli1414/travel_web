@@ -197,7 +197,7 @@ h2 {
 }
 .card-img {
 	padding: 20px 5px;
-	border-radius: 10px;
+	border-radius: 20px;
 	transition-duration: 1.5s;
 }
 .card-img:hover {
