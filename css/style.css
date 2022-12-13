@@ -30,14 +30,14 @@ a {
 	color: inherit;
 }
 img {
-	width: 100%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 li {
 	list-style: none;
 }
 .container {
-	max-width: 960px;
+	max-width: 1280px;
 	margin: 0 auto;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -59,7 +59,7 @@ li {
 }
 .header-title {
 	margin: 0;
-	padding: 20px 0px;
+	padding: 20px 10%;
 	font-size: 165%;
 }
 
@@ -115,15 +115,15 @@ li {
 }
 
 .banner {
-	height: 81vh;
-	background: #fff url(../images/Cherryblossoms2.jpg) right top repeat-x;
+	max-width: 100%;
+	height: 90vh;
+	background: #fff url(../images/Cherryblossoms2.jpg) center no-repeat;
+	background-size: cover;
 }
 
 /* Content Style */
 .content-area {
 	display: flex;
-	/* border-top: 3px solid #e5e9dc;
-	border-bottom: 3px solid #e5e9dc; */
 }
 
 /* Main-Area Style */
@@ -191,6 +191,10 @@ li {
 }
 .text-center {
 	text-align: center;
+}
+h1 {
+	background-color: #0081fa;
+	color: #fff;
 }
 h2 {
 	padding: 10px 0px;
